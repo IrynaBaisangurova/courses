@@ -1,130 +1,180 @@
 <!DOCTYPE html>
 <html lang="uk">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
 
-      <!-- normalize -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    <!-- normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
       integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
       crossorigin="anonymous"
-      referrerpolicy="no-referrer"/>
-  <link rel="stylesheet" href="./css/styles.css">
-</head>
-<body>
-  <header class="header">
-    <div class="container">
-      <div class="logo">
-        <a class="header-logo" href="./index.html">ФЕЯ</a>
-        <a class="header-logo shift" href="./index.html">ПТАХІВНИЦТВА</a>
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="logo">
+          <a class="header-logo" href="./index.html">ФЕЯ</a>
+          <a class="header-logo shift" href="./index.html">ПТАХІВНИЦТВА</a>
+        </div>
+        <div>
+          <svg class="icon-menu" width="36" height="36">
+            <use href="./images/icons.svg#icon-menu"></use>
+          </svg>
+        </div>
       </div>
-     <div>
-      <svg class="icon-menu" width="36" height="36">
-        <use href="./images/icons.svg#icon-menu"></use></svg>
-     </div>
-    </div>
-  </header>
-  <main>
-    <section class="section section-main">
-      <div class="container container-main">
-       <p class="subtitle-main">онлайн-школа</p>
-       <h1 class="title">Вирощування cвійської птиці</h1>
-       
-       <img class="main-image" 
-       srcset="./images/main@2x.jpg 2x"
-       src="./images/main@1x.jpg 1x" alt="Тетяна" width="212" height="221">
-       <div class="btn-box">
-       <button class="main-btn" type="button">отримати курс</button>
-       <button class="main-btn btn" type="button">програма школи</button>
-      </div>
-      </div>
-    </section>
-    <section class="section section-info">
-     <div class="container container-info">
-       
-        <div class="info-box">
-          <h2 class="subtitle-info">Для кого цей курс</h2>
-          <ul class="text-list">
-            <li>
-              <p class="text-item">для новачків, які хочуть, але бояться!</p>
+    </header>
+    <main>
+      <section class="section section-main">
+        <div class="container container-main">
+          <p class="subtitle-main">онлайн-школа</p>
+          <h1 class="title">Вирощування cвійської птиці</h1>
+
+          <img
+            class="main-image"
+            srcset="./images/main@2x.jpg 2x"
+            src="./images/main@1x.jpg 1x"
+            alt="Тетяна"
+            width="212"
+            height="221"
+          />
+          <div class="btn-box">
+            <button class="main-btn" type="button"><a href="./payment.html">отримати курс</a></button>
+            <button class="main-btn btn" type="button"><a href="#progr">програма школи</a></button>
+          </div>
+        </div>
+      </section>
+      <section class="section section-info">
+        <div class="container container-info">
+          <div class="info-box">
+            <h2 class="subtitle-info">Для кого цей курс</h2>
+            <ul class="text-list">
+              <li>
+                <p class="text-item">для новачків, які хочуть, але бояться!</p>
+              </li>
+              <li>
+                <p class="text-item">для людей з поганим особистим досвідом!</p>
+              </li>
+              <li>
+                <p class="text-item">для тих, хто спробував і опустив руки!</p>
+              </li>
+            </ul>
+          </div>
+          <div class="box-vector">
+            <img src="./images/Vector.svg" width="320" height="215" alt="фон" />
+          </div>
+          <div class="info-twice">
+            <p class="text-info">
+              Відрізняюсь тим, що вирощую птицю разом з вами. І ви бачите мої
+              перемоги та поразки
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="section section-module" id="progr">
+        <div class="container container-module">
+          <p class="subtitle-prom">Онлайн-школа птахівництва 4 модулі.</p>
+          <h3 class="subtitle-module">Програма школи</h3>
+          <h2 class="title-module">Перший модуль</h2>
+          <div class="box-module">
+            <img
+              class="image-module"
+              src="./images/modul@1x.jpg"
+              width="320"
+              height="215"
+              alt="фон"
+            />
+            <p class="text-module">Крос і порода</p>
+            <p class="text-module">Брудерний період</p>
+            <p class="text-module">Пропойки.</p>
+            <p class="text-module">Епідемологічні хвороби</p>           
+          </div>
+          <h3 class="title-buy">АКЦІЙНА ЦІНА ДО 1 ВЕРЕСНЯ</h3>
+          <p class="sale">600 грн</p>
+         
+          <button class="main-btn btn-mod" type="button">
+            <a href="./payment.html">купити перший модуль</a>
+           
+          </button>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container container-footer">
+        <div class="logo-footer">
+          <a class="header-logo logo" href="./index.html">ФЕЯ</a>
+          <a class="header-logo logo-shift" href="./index.html">ПТАХІВНИЦТВА</a>
+        </div>
+        <div class="text-box">
+          <p class="text-footer">Секрети інкубації</p>
+          <p class="text-footer">Авторські курси по вирощуванню птиці</p>
+        </div>
+        <div class="icons-social">
+          <h2 class="title-footer">Приєднуйтесь</h2>
+          <ul class="social-list">
+            <li class="social-items">
+              <a class="items-link" href="https://www.instagram.com/tanya.cherkashina/"
+                ><svg class="icons" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
             </li>
-            <li>
-              <p class="text-item">для людей з поганим особистим досвідом!</p>
+            <li class="social-items">
+              <a class="items-link" href="https://www.threads.net/@tanya.cherkashina?xmt=AQGzrkemy7LXN5i8l0WXAl0grJ8Q46Y0-JHK_BN2Dt4NLX0"
+                ><svg class="icons" width="24" height="24">
+                  <use
+                    href="./images/icons.svg#icon-threads"
+                  ></use></svg>
+              </a>
             </li>
-            <li>
-              <p class="text-item">для тих, хто спробував і опустив руки!</p>
+            <li class="social-items">
+              <a class="items-link" href="#"
+                ><svg class="icons" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use></svg>
+              </a>
+            </li>
+            <li class="social-items">
+              <a class="items-link" href="https://l.instagram.com/?u=https%3A%2F%2Fyoutube.com%2F%40user-mg8oq6oj4e&e=AT1vCYrOFuTiN6-mEbI7DI0JiT7COIRpsJOTLyglplrRevaAAK2mdfqpMSkq7WDF0evMjwRE8KottKhHIa4JcaFY7JC5jfvK4zhGOA">
+                <svg class="icons" width="24" height="24">
+                  <use href="./images/icons.svg#icon-youtube"></use>
+                </svg>
+              </a>
             </li>
           </ul>
         </div>
-        <div class="box-vector">
-          <img src="./images/Vector.svg" width="320" height="215" alt="фон">
+        <div class="form-subscribe">
+          <p class="form-title">Задавайте питання</p>
+          <form class="form-footer">
+            <label class="form-label">
+              <input
+                class="form-input"
+                type="email"
+                name="user-email"
+                placeholder="E-mail"
+                required
+              />
+            </label>
+            <button class="form-button" type="submit">
+              Написати
+              <svg class="icons-footer" width="24" height="24">
+                <use href="./images/icons.svg#icon-telegram"></use>
+              </svg>
+            </button>
+          </form>
         </div>
-        <div class="info-twice">
-          <p class="text-info">Відрізняюсь тим, що вирощую птицю разом з вами. І ви бачите мої перемоги та поразки</p>
-        </div>  
-     </div>
-    </section>
-    <section class="section section-module">
-      <div class="container container-module">
-        <p class="subtitle-prom">Онлайн-школа птахівництва 4 модулі.</p>
-        <h3 class="subtitle-module">Програма школи</h3>
-        <h2 class="title-module">Перший модуль</h2>
-        <div class="box-module">
-            <img class="image-module" src="./images/modul@1x.jpg" width="320" height="215" alt="фон">
-          <p class="text-module">Крос і порода</p>
-          <p class="text-module">Брудерний період</p>
-          <p class="text-module">Пропойки.</p>
-          <p class="text-module">Епідемологічні хвороби</p>
-        </div>
-        <button class="main-btn btn-mod" type="button">купити перший модуль</button>
       </div>
-
-    </section>
-  </main>
-  <footer class="footer">
-    <div class="container container-footer">
-      <div class="logo-footer">
-        <a class="header-logo logo" href="./index.html">ФЕЯ</a>
-        <a class="header-logo logo-shift" href="./index.html">ПТАХІВНИЦТВА</a>
-      </div>
-      <div class="text-box">
-      <p class="text-footer">Секрети інкубації</p>
-      <p class="text-footer">Авторські курси по вирощуванню птиці</p>
-      </div>
-      <div class="icons-social">
-      <h2 class="title-footer">Приєднуйтесь</h2>
-      <ul class="social-list">
-      <li class="social-items"><a class="items-link" href="#"><svg class="icons" width="24" height="24"><use href="./images/icons.svg#icon-instagram"></use></svg></a></li>
-      <li class="social-items"><a class="items-link" href="#"><svg class="icons" width="24" height="24"><use href="./images/icons.svg#icon-facebook-messenger"></use></svg></a></li>
-      <li class="social-items"><a class="items-link" href="#"><svg class="icons" width="24" height="24"><use href="./images/icons.svg#icon-facebook"></use></svg></a></li>
-      <li class="social-items"><a class="items-link" href="#"><svg class="icons" width="24" height="24"><use href="./images/icons.svg#icon-youtube"></use></svg></a></li>
-      </ul>
-      </div>
-      <div class="form-subscribe">
-        <p class="form-title">Задавайте питання</p>
-        <form class="form-footer">
-          <label class="form-label">
-            <input class="form-input" type="email" name="user-email"  placeholder="E-mail" required/>
-          </label>
-          <button class="form-button" type="submit">
-            Написати
-            <svg class="icons-footer" width="24" height="24">
-              <use href="./images/icons.svg#icon-telegram"></use>
-            </svg>
-          </button>
-        </form>
-      </div>
-
-    </div>
-  </footer>
-
-
-
-
-</body>
+    </footer>
+  </body>
 </html>

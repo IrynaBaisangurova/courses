@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment Method</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="logo">
+          <a class="header-logo" href="./index.html">ФЕЯ</a>
+          <a class="header-logo shift" href="./index.html">ПТАХІВНИЦТВА</a>
+        </div>
+      </div>
+    </header>
+    <section class="section section-payment">
+      <div class="container container-payment">
+        <p class="subtitle-payment">Спосіб оплати</p>
+        <form class="form-payment">
+          <div class="payment-box">
+            <label class="payment-label" for="numbercard">номер картки</label>
+            <input
+              class="payment-input" type="number" name="numbercard" id="numbercard"
+              placeholder="XXXX XXXX XXXX XXXX"/>
+          </div>
+          <div class="payment-block">
+            <div class="input-term">
+              <label class="payment-label" for="year">термін дії</label>
+              <input class="payment-term" type="number" name="year" id="year" placeholder="д/г"/>
+            </div>
+            <div class="input-term">
+              <label class="payment-label" for="cvv">cvv</label>
+              <input class="payment-term" type="number" name="cvv" id="cvv" placeholder=". . ."/>
+            </div>
+          </div>
+          <button class="payment-btn" type="submit">сплатити</button>
+          <div class="radio-block">
+          <input class="payment-radio" type="radio" name="payment" id="payment" />
+          <label class="payment-radio" for="payment">Google Pay</label>
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+  <link rel="stylesheet" href="/Templates/_Resources/css/css.css" />
+  <!-- Main library -->
+  <script
+    type="text/javascript"
+    src="/Templates/_Resources/js-min/payture.min.js"
+  ></script>
+  <!-- Helper library -->
+  <script
+    type="text/javascript"
+    src="/Templates/_Resources/js-min/payture-helper-utils.min.js"
+  ></script>
+</html>
