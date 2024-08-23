@@ -24,7 +24,7 @@
   </head>
   <body>
     <header class="header">
-      <div class="container">
+      <div class="container container-header">
         <div class="logo">
           <a class="header-logo" href="./index.html">ФЕЯ</a>
           <a class="header-logo shift" href="./index.html">ПТАХІВНИЦТВА</a>
@@ -37,22 +37,17 @@
       </div>
     </header>
     <main>
-      <section class="section section-main">
+      <section class="section-main">
         <div class="container container-main">
           <p class="subtitle-main">онлайн-школа</p>
           <h1 class="title">Вирощування cвійської птиці</h1>
-
-          <img
-            class="main-image"
-            srcset="./images/main@2x.jpg 2x"
-            src="./images/main@1x.jpg 1x"
-            alt="Тетяна"
-            width="212"
-            height="221"
-          />
           <div class="btn-box">
-            <button class="main-btn" type="button"><a href="./payment.html">отримати курс</a></button>
-            <button class="main-btn btn" type="button"><a href="#progr">програма школи</a></button>
+            <a href="./payment.html">
+              <button class="main-btn" type="button">отримати курс</button>
+            </a>
+            <a href="#progr">
+               <button class="main-btn btn" type="button">програма школи</button>
+            </a>
           </div>
         </div>
       </section>
@@ -83,30 +78,60 @@
           </div>
         </div>
       </section>
+      <section class="section section-action">
+        <div class="container container-action">
+          <h3 class="title-buy">Акційна ціна до <span>1 вересня</span></h3>
+          <p class="sale">600 грн</p>
+          <img class="sertif"
+            srcset="./images/sertif@2x.jpg 2x"
+            src="./images/sertif@1x.jpg 1x"
+            width="272"
+            height="328"
+            alt="certification"
+          />
+          <p class="text-action">По закінченню курсу видається сертифікат</p>
+        </div>
+      </section>
       <section class="section section-module" id="progr">
         <div class="container container-module">
           <p class="subtitle-prom">Онлайн-школа птахівництва 4 модулі.</p>
           <h3 class="subtitle-module">Програма школи</h3>
           <h2 class="title-module">Перший модуль</h2>
           <div class="box-module">
-            <img
-              class="image-module"
-              src="./images/modul@1x.jpg"
+            <img class="image-module"
+              srcset="./images/gros@1x.jpg 1x, ./images/gros@2x.jpg 2x"
+              src="./images/gros@1x.jpg"
+              alt="Кури"
               width="320"
               height="215"
-              alt="фон"
             />
             <p class="text-module">Крос і порода</p>
+            <img class="image-module"
+              srcset="./images/bruder@1x.jpg 1x, ./images/bruder@2x.jpg 2x"
+              src="./images/bruder@1x.jpg"
+              alt="Брудер"
+              width="320"
+              height="215"
+            />
             <p class="text-module">Брудерний період</p>
+            <img class="image-module"
+              srcset="./images/prop@1x.jpg 1x, ./images/prop@1x.jpg 2x"
+              src="./images/prop@1x.jpg"
+              alt="пропойки циплят"
+              width="320"
+              height="215"
+            />
             <p class="text-module">Пропойки.</p>
-            <p class="text-module">Епідемологічні хвороби</p>           
+
+            <img class="image-module" 
+            srcset="./images/epid@1x.jpg 1x, ./images/epid@1x.jpg 2x"
+            src="./images/epid@1x.jpg" alt="хворий птах"
+            width="320" height="215">
+            <p class="text-module">Епідемологічні хвороби</p>
           </div>
-          <h3 class="title-buy">АКЦІЙНА ЦІНА ДО 1 ВЕРЕСНЯ</h3>
-          <p class="sale">600 грн</p>
-         
+
           <button class="main-btn btn-mod" type="button">
             <a href="./payment.html">купити перший модуль</a>
-           
           </button>
         </div>
       </section>
@@ -125,28 +150,35 @@
           <h2 class="title-footer">Приєднуйтесь</h2>
           <ul class="social-list">
             <li class="social-items">
-              <a class="items-link" href="https://www.instagram.com/tanya.cherkashina/"
+              <a
+                class="items-link"
+                href="https://www.instagram.com/tanya.cherkashina/"
                 ><svg class="icons" width="24" height="24">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="social-items">
-              <a class="items-link" href="https://www.threads.net/@tanya.cherkashina?xmt=AQGzrkemy7LXN5i8l0WXAl0grJ8Q46Y0-JHK_BN2Dt4NLX0"
+              <a
+                class="items-link"
+                href="https://www.threads.net/@tanya.cherkashina?xmt=AQGzrkemy7LXN5i8l0WXAl0grJ8Q46Y0-JHK_BN2Dt4NLX0"
                 ><svg class="icons" width="24" height="24">
-                  <use
-                    href="./images/icons.svg#icon-threads"
-                  ></use></svg>
+                  <use href="./images/icons.svg#icon-threads"></use>
+                </svg>
               </a>
             </li>
             <li class="social-items">
               <a class="items-link" href="#"
                 ><svg class="icons" width="24" height="24">
-                  <use href="./images/icons.svg#icon-facebook"></use></svg>
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
               </a>
             </li>
             <li class="social-items">
-              <a class="items-link" href="https://l.instagram.com/?u=https%3A%2F%2Fyoutube.com%2F%40user-mg8oq6oj4e&e=AT1vCYrOFuTiN6-mEbI7DI0JiT7COIRpsJOTLyglplrRevaAAK2mdfqpMSkq7WDF0evMjwRE8KottKhHIa4JcaFY7JC5jfvK4zhGOA">
+              <a
+                class="items-link"
+                href="https://l.instagram.com/?u=https%3A%2F%2Fyoutube.com%2F%40user-mg8oq6oj4e&e=AT1vCYrOFuTiN6-mEbI7DI0JiT7COIRpsJOTLyglplrRevaAAK2mdfqpMSkq7WDF0evMjwRE8KottKhHIa4JcaFY7JC5jfvK4zhGOA"
+              >
                 <svg class="icons" width="24" height="24">
                   <use href="./images/icons.svg#icon-youtube"></use>
                 </svg>
