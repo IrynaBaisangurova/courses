@@ -25,15 +25,83 @@
   <body>
     <header class="header">
       <div class="container container-header">
+        <div class="header-mobile">
         <div class="logo">
           <a class="header-logo" href="./index.html">ФЕЯ</a>
           <a class="header-logo shift" href="./index.html">ПТАХІВНИЦТВА</a>
         </div>
-        <div>
+        <div class="burger-menu">
           <svg class="icon-menu" width="36" height="36">
             <use href="./images/icons.svg#icon-menu"></use>
           </svg>
         </div>
+        </div>
+        <div class="container mobile-menu is-open">
+          <nav class="menu-nav">
+            <ul class="menu-list">
+              <li><a class="menu-link active" href="./index.html">Онлайн-школа</a></li>
+              <li><a class="menu-link" href="">Про мене</a></li>
+              <li><a class="menu-link" href="">Відгуки</a></li>
+              <li><a class="menu-link" href="">Каталог</a></li> 
+            </ul>
+          </nav>
+          <button type="button" class="menu-close" title="#">
+        <svg class="icon-close" width="8" height="8"><use href="./images/icons.svg#icon-close"></use></svg>
+          </button>
+          <address class="contacts">
+          <ul class="contacts-list">
+            <li class="contacts-items">
+              <a class="contacts-items-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+            </li>
+            <li class="contacts-items">
+              <a class="contacts-items-link" href="mailto:info@ptaschka.com">info@ptaschka.com</a></li>
+          </ul>
+          </address>
+          <ul class="social-list">
+          <li class="social-items">
+            <a class="items-link" href="https://www.instagram.com/tanya.cherkashina/">
+              <svg class="icons" width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-items">
+            <a class="items-link"
+              href="https://www.threads.net/@tanya.cherkashina?xmt=AQGzrkemy7LXN5i8l0WXAl0grJ8Q46Y0-JHK_BN2Dt4NLX0">
+              <svg class="icons" width="24" height="24">
+                <use href="./images/icons.svg#icon-threads"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-items">
+            <a class="items-link" href="#">
+              <svg class="icons" width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-items">
+            <a
+              class="items-link"
+              href="https://l.instagram.com/?u=https%3A%2F%2Fyoutube.com%2F%40user-mg8oq6oj4e&e=AT1vCYrOFuTiN6-mEbI7DI0JiT7COIRpsJOTLyglplrRevaAAK2mdfqpMSkq7WDF0evMjwRE8KottKhHIa4JcaFY7JC5jfvK4zhGOA"
+            >
+              <svg class="icons" width="24" height="24">
+                <use href="./images/icons.svg#icon-youtube"></use>
+              </svg>
+            </a>
+          </li>
+          </ul>
+        </div>
+      <div class="container header-tablet">
+        <nav class="menu-nav-tab">
+          <ul class="menu-list-tab">
+            <li><a class="menu-link-tab active" href="./index.html">Онлайн-школа</a></li>
+            <li><a class="menu-link-tab" href="">Про мене</a></li>
+            <li><a class="menu-link-tab" href="">Відгуки</a></li>
+            <li><a class="menu-link-tab" href="">Каталог</a></li> 
+          </ul>
+        </nav>
+      </div>
       </div>
     </header>
     <main>
@@ -49,36 +117,78 @@
                <button class="main-btn btn" type="button">програма школи</button>
             </a>
           </div>
+          <ul class="social-list tab">
+            <li class="social-items">
+              <a class="items-link" href="https://www.instagram.com/tanya.cherkashina/">
+                <svg class="icons" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-items">
+              <a class="items-link"
+                href="https://www.threads.net/@tanya.cherkashina?xmt=AQGzrkemy7LXN5i8l0WXAl0grJ8Q46Y0-JHK_BN2Dt4NLX0">
+                <svg class="icons" width="24" height="24">
+                  <use href="./images/icons.svg#icon-threads"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-items">
+              <a class="items-link" href="#">
+                <svg class="icons" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-items">
+              <a
+                class="items-link"
+                href="https://l.instagram.com/?u=https%3A%2F%2Fyoutube.com%2F%40user-mg8oq6oj4e&e=AT1vCYrOFuTiN6-mEbI7DI0JiT7COIRpsJOTLyglplrRevaAAK2mdfqpMSkq7WDF0evMjwRE8KottKhHIa4JcaFY7JC5jfvK4zhGOA"
+              >
+                <svg class="icons" width="24" height="24">
+                  <use href="./images/icons.svg#icon-youtube"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
         </div>
       </section>
-      <section class="section section-info">
+      <section class="section-info">
         <div class="container container-info">
           <div class="info-box">
             <h2 class="subtitle-info">Для кого цей курс</h2>
             <ul class="text-list">
-              <li>
+              <li class="items-info">
+                <img class="image-vector" 
+                srcset="./images/first@2x.jpg 2x"
+                src="./images/first@1x.jpg" alt="" width="80" height="80">
                 <p class="text-item">для новачків, які хочуть, але бояться!</p>
               </li>
-              <li>
+              <li class="items-info">
+                <img class="image-vector" 
+                srcset="./images/two@2x.jpg 2x"
+                src="./images/two@1x.jpg 1x" alt="" width="80" height="80">
                 <p class="text-item">для людей з поганим особистим досвідом!</p>
               </li>
-              <li>
+              <li class="items-info">
+                <img class="image-vector"
+                srcset="./images/three@2x.jpg 2x" 
+                src="./images/three@1x.jpg 1x" alt="" width="80" height="80">
                 <p class="text-item">для тих, хто спробував і опустив руки!</p>
               </li>
             </ul>
           </div>
-          <div class="box-vector">
-            <img src="./images/Vector.svg" width="320" height="215" alt="фон" />
-          </div>
-          <div class="info-twice">
-            <p class="text-info">
-              Відрізняюсь тим, що вирощую птицю разом з вами. І ви бачите мої
-              перемоги та поразки
-            </p>
-          </div>
         </div>
       </section>
-      <section class="section section-action">
+      <section class="section-vector">
+        <div class="container-vector">
+          <p class="text-info">
+            Відрізняюсь тим, що вирощую птицю разом з вами. І ви бачите мої
+            перемоги та поразки
+          </p>
+        </div> 
+      </section>
+      <section class="section-action">
         <div class="container container-action">
           <h3 class="title-buy">Акційна ціна до <span>1 вересня</span></h3>
           <p class="sale">600 грн</p>
@@ -92,7 +202,7 @@
           <p class="text-action">По закінченню курсу видається сертифікат</p>
         </div>
       </section>
-      <section class="section section-module" id="progr">
+      <section class="section-module" id="progr">
         <div class="container container-module">
           <p class="subtitle-prom">Онлайн-школа птахівництва 4 модулі.</p>
           <h3 class="subtitle-module">Програма школи</h3>
@@ -143,33 +253,34 @@
           <a class="header-logo logo-shift" href="./index.html">ПТАХІВНИЦТВА</a>
         </div>
         <div class="text-box">
+          <p class="text-footer">Досвід 8 років</p>
           <p class="text-footer">Секрети інкубації</p>
           <p class="text-footer">Авторські курси по вирощуванню птиці</p>
+          <p class="text-footer">200+ учнів</p>
+          <p class="text-footer">виростили птицю з нуля</p>
+          <p class="text-footer">не втратили поголів'я, мають прибуток</p>
         </div>
         <div class="icons-social">
           <h2 class="title-footer">Приєднуйтесь</h2>
           <ul class="social-list">
             <li class="social-items">
-              <a
-                class="items-link"
-                href="https://www.instagram.com/tanya.cherkashina/"
-                ><svg class="icons" width="24" height="24">
+              <a class="items-link" href="https://www.instagram.com/tanya.cherkashina/">
+                <svg class="icons" width="24" height="24">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="social-items">
-              <a
-                class="items-link"
-                href="https://www.threads.net/@tanya.cherkashina?xmt=AQGzrkemy7LXN5i8l0WXAl0grJ8Q46Y0-JHK_BN2Dt4NLX0"
-                ><svg class="icons" width="24" height="24">
+              <a class="items-link"
+                href="https://www.threads.net/@tanya.cherkashina?xmt=AQGzrkemy7LXN5i8l0WXAl0grJ8Q46Y0-JHK_BN2Dt4NLX0">
+                <svg class="icons" width="24" height="24">
                   <use href="./images/icons.svg#icon-threads"></use>
                 </svg>
               </a>
             </li>
             <li class="social-items">
-              <a class="items-link" href="#"
-                ><svg class="icons" width="24" height="24">
+              <a class="items-link" href="#">
+                <svg class="icons" width="24" height="24">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
