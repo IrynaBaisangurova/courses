@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Module</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container container-header">
+        <div class="header-mobile">
+          <div class="logo">
+            <a class="header-logo" href="./index.html">ФЕЯ</a>
+            <a class="header-logo shift" href="./index.html">ПТАХІВНИЦТВА</a>
+          </div>
+          <div class="burger-menu">
+            <svg class="icon-menu" width="36" height="36">
+              <use href="./images/icons.svg#icon-menu"></use>
+            </svg>
+          </div>
+        </div>
+        <div class="container mobile-menu is-open">
+          <nav class="menu-nav">
+            <ul class="menu-list">
+              <li>
+                <a class="menu-link active" href="./index.html">Головна</a>
+              </li>
+              <li class="menu-link">
+                <a class="menu-link-icon" href="#"
+                  >Онлайн-школа
+                  <svg class="icon-down" width="24px" height="24px">
+                    <use href="./images/icons.svg#icon-down"></use>
+                  </svg>
+                </a>
+                <ul class="list-down">
+                  <li><a class="menu-link-down" href="#">Модуль 1</a></li>
+                  <li><a class="menu-link-down" href="#">Модуль 2</a></li>
+                  <li><a class="menu-link-down" href="#">Модуль 3</a></li>
+                  <li><a class="menu-link-down" href="#">Модуль 4</a></li>
+                </ul>
+              </li>
+              <li><a class="menu-link" href="">Про мене</a></li>
+              <li><a class="menu-link" href="">Відгуки</a></li>
+            </ul>
+          </nav>
+          <button type="button" class="menu-close" title="#">
+            <svg class="icon-close" width="8" height="8">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+          <address class="contacts">
+            <ul class="contacts-list">
+              <li class="contacts-items">
+                <a class="contacts-items-link" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li class="contacts-items">
+                <a class="contacts-items-link" href="mailto:info@ptaschka.com"
+                  >info@ptaschka.com</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="social-list">
+            <li class="social-items">
+              <a
+                class="items-link"
+                href="https://www.instagram.com/tanya.cherkashina/"
+              >
+                <svg class="icons" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-items">
+              <a
+                class="items-link"
+                href="https://www.threads.net/@tanya.cherkashina?xmt=AQGzrkemy7LXN5i8l0WXAl0grJ8Q46Y0-JHK_BN2Dt4NLX0"
+              >
+                <svg class="icons" width="24" height="24">
+                  <use href="./images/icons.svg#icon-threads"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-items">
+              <a class="items-link" href="#">
+                <svg class="icons" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-items">
+              <a
+                class="items-link"
+                href="https://l.instagram.com/?u=https%3A%2F%2Fyoutube.com%2F%40user-mg8oq6oj4e&e=AT1vCYrOFuTiN6-mEbI7DI0JiT7COIRpsJOTLyglplrRevaAAK2mdfqpMSkq7WDF0evMjwRE8KottKhHIa4JcaFY7JC5jfvK4zhGOA"
+              >
+                <svg class="icons" width="24" height="24">
+                  <use href="./images/icons.svg#icon-youtube"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="container header-tablet">
+          <nav class="menu-nav-tab">
+            <ul class="menu-list-tab">
+              <li>
+                <a class="menu-link-tab active" href="./index.html">Головна</a>
+              </li>
+              <li class="dropdown">
+                <a href="#"
+                  >Онлайн-школа
+                  <svg class="icon-down" width="24px" height="24px">
+                    <use href="./images/icons.svg#icon-down"></use>
+                  </svg>
+                </a>
+                <ul>
+                  <li><a href="#">Модуль 1</a></li>
+                  <li><a href="#">Модуль 2</a></li>
+                  <li><a href="#">Модуль 3</a></li>
+                  <li><a href="#">Модуль 4</a></li>
+                </ul>
+              </li>
+              <li><a class="menu-link-tab" href="">Про мене</a></li>
+              <li><a class="menu-link-tab" href="">Відгуки</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+
+      <section class="section section-module" id="modul">
+        <div class="container container-module">
+          <h3 class="title-module">Онлайн-школа птахівництва</h3>
+          <h4 class="subtitle-module">4 модулі</h3>
+          <p class="text-prom">
+            Одна з базових програм по вирощуванню свійської птиці. Саме з неї
+            краще почати свій шлях у птахівництві.
+          </p>
+          <div class="block-prom">
+          <p class="text-prom one">«Школа птахівництва» допоможе вам:</p>
+          <p class="text-prom">
+            &#8722; мінімізувати втрати поголів‘я
+          </p>
+          <p class="text-prom">
+            &#8722; мати повну уяву про епідеміологічні і бактеріальні
+            захворювання курей і методи їх лікування
+          </p>
+          <p class="text-prom">
+            &#8722; аналізувати ситуацію у вашому стаді і знаходити правильні
+            рішення без сторонньої допомоги
+          </p>
+          </div>
+          <div class="block-prom two">
+          <p class="text-prom">
+            Хвороби дешевше попереджати, ніж лікувати.
+          </p>
+          <p class="text-prom">
+            Від епідемій дешевше
+            вакцінувати поголів‘я, ніж повністю його втратити, зачинити
+            домогосподарство на карантин і не мати можливості вирощувати для
+            своєї родини і постійних покупців  якісні продукти харчування.
+          </p>
+          <p class="text-prom">
+            Розуміння того, як виглядає птиця зсередини , які процеси
+            відбуваються в її організмі #8722; необхідна умова сучасного, обізнаного
+            птахівництва
+          </p>
+          </div>
+          
+          <div class="box-module">
+            <h4 class="subtitle-module">Програма школи: Другий модуль</h4>
+            <ul class="module-list">
+              <li class="module-items"> 
+                <h4 class="subtitle-text">Аптечка &#8722; мінімум</h4>
+                <img class="image-module"
+                srcset="./images/prop@1x.jpg 1x, ./images/prop@1x.jpg 2x"
+                src="./images/prop@1x.jpg"
+                alt="пропойки циплят"
+                width="320"
+                height="215"
+              />          
+              <p class="text-module">             
+                Велика проблема птахівників- відсутність препаратів для 
+                швидкого реагування на хворобу птиці, особливо на 
+                захворювання, де відлік часу для вирішення проблеми 
+                рахується на години. 
+              </p>
+              <p class="text-module">Я надаю список препаратів, які повинні бути в
+                 аптечці птахівника в мінімальній кількості обов’язково
+                 </p>              
+              </li>
+              <li class="module-items">
+                <h4 class="subtitle-text">Крос і порода</h4>
+                <img class="image-module"
+                srcset="./images/modul@1x.jpg 1x, ./images/modul@2x.jpg 2x"
+                src="./images//modul@1x.jpg"
+                alt="Кури"
+                width="320"
+                height="215"
+                />
+               
+                <p class="text-module">Навчимося відрізняти курей за породами і кросами для того,
+                   щоб не бути обдуреними при покупці курчат,
+                    або інкубаційних яєць</p>
+              </li>
+              <li class="module-items" >
+                <h4 class="subtitle-text">Брудерний період</h4>
+                <img class="image-module"
+                srcset="./images/bruder@1x.jpg 1x, ./images/bruder@2x.jpg 2x"
+                src="./images/bruder@1x.jpg"
+                alt="Брудер"
+                width="320"
+                height="215"
+              />          
+              <p class="text-module">Дезінфекція </p>
+              <p class="text-module">Норми посадки курчат</p>
+              <p class="text-module">Фронт годування і напування </p>
+              <p class="text-module">Світловий і тепловий режими</p>            
+              </li>
+          
+            <li class="module-items">
+              <h4 class="subtitle-text">Епідемологічні хвороби</h4>
+              <img class="image-module"
+              
+              srcset="./images/epid@1x.jpg 1x, ./images/epid@1x.jpg 2x"
+              src="./images/epid@1x.jpg"
+              alt="хворий птах"
+              width="320"
+              height="215"
+            />
+            
+            <p class="text-module">
+              Опис симптомів епідеміологічних хвороб
+            </p >
+            <p class="text-module">Щеплення</p>
+            <p class="text-module">Правила видачі препаратів</p>           
+            </li>
+           </ul>
+ 
+       
+
+       
+          </div>
+         
+            <button class="main-btn btn-mod" type="button">
+              <a href="./payment.html">купити перший модуль</a>
+            </button>  
+            <div class="button-mod">        
+              <a class="about-arrow" href="#">наступний модуль</a> 
+              <a class="arrow" href="#">&#8658;</a>  
+              
+            </div>
+        </div>
+      </section>
+
+    </main>
+    <footer class="footer">
+      <div class="container container-footer">
+        <div class="logo-footer">
+          <a class="header-logo logo" href="./index.html">ФЕЯ</a>
+          <a class="header-logo logo-shift" href="./index.html">ПТАХІВНИЦТВА</a>
+        </div>
+        <div class="text-box">
+          <p class="text-footer">Досвід 8 років</p>
+          <p class="text-footer">Секрети інкубації</p>
+          <p class="text-footer">Авторські курси по вирощуванню птиці</p>
+          <p class="text-footer">200+ учнів</p>
+          <p class="text-footer">виростили птицю з нуля</p>
+          <p class="text-footer">не втратили поголів'я, мають прибуток</p>
+        </div>
+        <div class="icons-social">
+          <h2 class="title-footer">Приєднуйтесь</h2>
+          <ul class="social-list">
+            <li class="social-items">
+              <a
+                class="items-link"
+                href="https://www.instagram.com/tanya.cherkashina/"
+              >
+                <svg class="icons" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-items">
+              <a
+                class="items-link"
+                href="https://www.threads.net/@tanya.cherkashina?xmt=AQGzrkemy7LXN5i8l0WXAl0grJ8Q46Y0-JHK_BN2Dt4NLX0"
+              >
+                <svg class="icons" width="24" height="24">
+                  <use href="./images/icons.svg#icon-threads"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-items">
+              <a class="items-link" href="#">
+                <svg class="icons" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-items">
+              <a
+                class="items-link"
+                href="https://l.instagram.com/?u=https%3A%2F%2Fyoutube.com%2F%40user-mg8oq6oj4e&e=AT1vCYrOFuTiN6-mEbI7DI0JiT7COIRpsJOTLyglplrRevaAAK2mdfqpMSkq7WDF0evMjwRE8KottKhHIa4JcaFY7JC5jfvK4zhGOA"
+              >
+                <svg class="icons" width="24" height="24">
+                  <use href="./images/icons.svg#icon-youtube"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="form-subscribe">
+          <p class="form-title">Задавайте питання</p>
+          <form class="form-footer">
+            <label class="form-label">
+              <input
+                class="form-input"
+                type="email"
+                name="user-email"
+                placeholder="E-mail"
+                required
+              />
+            </label>
+            <button class="form-button" type="submit">
+              Написати
+              <svg class="icons-footer" width="24" height="24">
+                <use href="./images/icons.svg#icon-telegram"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
