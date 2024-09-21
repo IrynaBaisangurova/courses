@@ -21,10 +21,18 @@ breakpoints: {
 		slidesPerView: 1
 	},
 	768: {
+		slidesPerView: 1
+	},
+	1024: {
+		slidesPerView: 1
+	},
+
+	1200: {
 		slidesPerView: 2
 	},
+
 	1440: {
-		slidesPerView: 3
+		slidesPerView: 2
 	}
 }
 
